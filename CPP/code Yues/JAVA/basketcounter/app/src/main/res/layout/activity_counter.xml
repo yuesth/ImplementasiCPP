@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_counter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.omahti.basketcounter.CounterActivity">
+
+    <Button
+        android:id="@+id/plus1A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 point"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="tambah (CounterActivity)"/>
+
+    <Button
+        android:id="@+id/plus2A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 point"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:onClick="tambah"/>
+
+    <Button
+        android:id="@+id/plus3A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 point"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="tambah"/>
+
+    <TextView
+        android:id="@+id/textViewTimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tim A"
+        android:textSize="30sp"
+        android:layout_below="@+id/plus2A"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/skorTimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_below="@+id/textViewTimA"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/plus1B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 point"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="tambah"/>
+
+    <Button
+        android:id="@+id/plus2B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 point"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="tambah"/>
+
+    <Button
+        android:id="@+id/plus3B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 point"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="tambah"/>
+
+    <TextView
+        android:id="@+id/skorTimB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_above="@+id/plus2B"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewTimB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tim B"
+        android:textSize="30sp"
+        android:layout_above="@+id/skorTimB"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
