@@ -12,7 +12,8 @@ main(){
 	}else{
 		for(i=3;i<=sqrt(n)+1;i+=2)
 			if(n%i==0){
-				prima=false;break;
+				prima=false;
+				break;
 			}
 	}
 	if(prima==true){
